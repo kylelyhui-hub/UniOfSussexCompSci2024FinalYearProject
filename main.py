@@ -32,9 +32,9 @@ current_heart_rate = 80 # BPM
 # Google Maps API key
 google_maps_api_key = 'AIzaSyBw_1yxOEPRDYTiX1zVdpoyxihIR0CvWLk'
 
-# Initialize GPS connection
-session = gps.gps("localhost", "2947")
-session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
+# Initialize GPS connection (Simulated)
+#session = gps.gps("localhost", "2947")
+#session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
 
 # Function to create and display the warning message window
 def show_warning():
